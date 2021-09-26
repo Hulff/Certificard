@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #FFC700 27.26%, #FBE07F 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+.dark {
+  background: linear-gradient(236.85deg, #FFC700 27.26%, #000000 96.03%);
+}
+
+.dark .container {
+    background: #333439;
+}
+.dark .container .cabecalho {
+    color: #F7F7F7;
+}
+.dark .container .cabecalho .tema button {
+    background-color: #1C1C1C;
+    color: #F7F7F7;
+    border: 2px soliq#F7F7F7;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+
+}
+.cabecalho {
+    display: flex;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.tema button {
+    padding: 8px 16px;
+    position: absolute;
+    background: #ECF4FF;
+    border: 2px solid #0E1D2F;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.projetos {
+    padding: 32px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    background: #FFC700;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+}
+
+.projetos-titulo {
+    list-style: none;
+    font-weight: 700;
+    font-size: 36px;
+
+}
+.lista-links {
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px;
+
+}
+
+.lista-links a {
+    color: #1C1C1C;
+    text-decoration: none;
+}
